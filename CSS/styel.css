@@ -52,6 +52,13 @@
     bottom: -4px;
     left: 20px;
 }
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
 
 /* home page */
 
@@ -208,11 +215,447 @@
 #product1 .pro .des h4{
     padding-top: 7px;
     font-size: 15px;
-    font-weight: 70px;
+    font-weight: 700;
     color: #088178;
 }
 #product1 .pro .cart{
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+/* starting banner */
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../IMG/AdobeStock_23.gif);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color: whitesmoke;
+    font-size: 16px;
+}
+#banner h2{
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: rgb(244, 8, 8);
+}
+#banner button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: rgb(39, 36, 41);
+    background-color: whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+#banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+
+/* ending banner */
+
+/* starting sm-banner */
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../IMG/AdobeStock_34.gif);
+    min-width: 530px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .banner-box2{
+    background-image: url(../IMG/AdobeStock_35.gif);
+}
+#sm-banner h4{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color: whitesmoke;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+#sm-banner button{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: whitesmoke;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    outline: none;
+    transition: 0.2s;
+}
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+
+/* ending sm-banner */
+
+/* starting banner3 */
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../IMG/AdobeStock_75.gif);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 .banner-box2{
+    background-image: url(../IMG/AdobeStock_24.gif);
+}
+#banner3 .banner-box3{
+    background-image: url(../IMG/AdobeStock_54.gif);
+}
+#banner3 h2{
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 22px;
+}
+#banner3 h3{
+    color: rgb(255, 23, 23);
+    font-weight: 800;
+    font-size: 15px;
+}
+
+/* ending banner3 */
+
+/* starting newsletter */
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-image: url(../IMG/lovepik.jpg); */
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #210968;
+    /* margin: 15px 0; */
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+#newsletter p span{
+    color: #ffbd27;
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsletter button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: whitesmoke;
+    background-color: #088178;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* ending newslatter */
+
+/* starting footer */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 14px;
+    margin: 0 3px 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow iconify-icon{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+footer .follow iconify-icon:hover,
+footer a:hover{
+    color: #088178;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+} 
+
+/* eding footer */
+
+
+
+
+
+/* start media query */
+
+@media (max-width:799px) {
+    .section-p1{
+        padding: 40px 40px;
+    }
+    /* starting navbar */
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile iconify-icon{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+    #lg-bag{
+        display: none;
+    }
+
+    /* ending navbar */
+
+    /* starting hero */
+
+    #hero {
+        height: 50vh;
+        padding: 0 80px;
+        background-position: top 30% right 40%;
+    }
+
+    /* ending hero */
+
+    /* starting feature */
+
+    #feature{
+        justify-content: center;
+    }
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+    /* ending feature */
+
+    /* starting product */
+
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+      margin: 15px;
+    }
+
+    /* ending product */
+
+    /* startig banner */
+
+    #banner {
+       height: 15vh;
+    }
+
+    /* ending banner */
+
+    /* starting sm-baner */
+
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 25vh;
+    }
+
+    /* ending sm-banner */
+
+    /* starting banner3 */
+    
+    #banner3{
+        padding: 0 40px;
+    }
+    #banner3 .banner-box{
+        width: 28%;
+    }
+    #newsletter .form{
+        width: 70%;
+    }
+}
+
+
+
+@media (max-width: 477px) {
+    .section-p1{
+        padding: 20px;
+    }
+
+    #header{
+        padding: 10px 30px;
+    }
+
+    #hero h1{
+        font-size: 38px;
+    }
+    #hero h2{
+        font-size: 32px;
+    }
+    #hero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    #feature{
+        justify-content: space-between;
+    }
+    #feature .fe-box{
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro{
+        width: 100%;
+    }
+
+    #banner{
+        height: 25vh;
+    }
+
+    #sm-banner .banner-box{
+        height: 25vh;
+    }
+    #sm-banner .banner-box2{
+        margin-top: 20px;
+    }
+
+    #banner3{
+        padding: 0 20px;
+    }
+    #banner3 .banner-box{
+        width: 100%;
+    }
+
+    #newsletter{
+        padding: 40px 20px;
+    }
+    #newsletter .form{
+        width: 100%;
+    }
+
+    footer .copyright{
+        text-align: start;
+    }
 }
