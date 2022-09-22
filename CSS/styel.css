@@ -481,6 +481,117 @@ footer .copyright{
 
 
 
+/* STARTING SHOP PAGE */
+
+
+
+/* starting page-header */
+
+#page-header{
+    background-image: url(../IMG/hard-2.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    padding: 14px;
+}
+#page-header h2{
+    font-size: 40px;
+}
+#page-header h2,
+#page-header p{
+    color: white;
+    font-weight: 800;
+}
+
+/* ending page-header */
+
+/* starting pagination */
+
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+#pagination a iconify-icon{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ending pagination */
+
+
+/* ENDING SHOP PAGE */
+
+
+/* STARTING prodetails */
+
+#prodetails{
+    display: flex;
+}
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding: 30px;
+}
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: whitesmoke;
+    padding: 10px 30px 10px 25px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+/* ENDING prodetails */
+
+
+
 
 
 /* start media query */
@@ -657,5 +768,18 @@ footer .copyright{
 
     footer .copyright{
         text-align: start;
+    }
+
+    /* Single Product */
+
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+    }
+    #prodetails .single-pro-details{
+        width: 100%;
     }
 }
