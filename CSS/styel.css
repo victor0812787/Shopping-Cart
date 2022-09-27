@@ -66,7 +66,7 @@ body{
 /* home page */
 
 #hero{
-    background-image: url("../IMG/phoneCat.jpg");
+    background-image: url("../IMG/johannes-andersson-1.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -934,7 +934,7 @@ footer .copyright{
     #about-head{
         flex-direction: column;
     }
-    
+
     #about-head img{
         width: 100%;
         margin-bottom: 20px;
