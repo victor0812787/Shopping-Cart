@@ -678,10 +678,48 @@ footer .copyright{
 /* ENDING BLOG */
 
 
+/* STARTING about-header */
+
+#page-header.about-header{
+    background-image: url(../IMG/heather-1.jpg);
+}
+
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 300%;
+    height: auto;
+}
+#about-head div{
+    padding: 40px;
+}
+
+#about-app{
+    text-align: center;
+}
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* ENDING about-header */
+
+
 
 /* start media query */
 
-@media (max-width:799px) {
+@media (max-width:820px) {
     .section-p1{
         padding: 40px 40px;
     }
@@ -889,4 +927,25 @@ footer .copyright{
     }
 
     /*ENDING BLOG PAGE  */
+
+
+    /* STARTING ABOUT PAGE */
+
+    #about-head{
+        flex-direction: column;
+    }
+    
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div{
+        padding-left: 0px;
+    }
+
+    #about-app .video{
+        width: 100%;
+    }
+
+    /* ENDING ABOUT PAGE */
 }
